@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isabella 的个人主页</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: #fdf5f2;
+            color: #333;
+            line-height: 1.7;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        .card {
+            background: #fff;
+            border-radius: 18px;
+            padding: 32px;
+            margin-bottom: 28px;
+            box-shadow: 0 4px 15px rgba(255, 105, 180, 0.15);
+        }
+        .avatar-section {
+            text-align: center;
+            position: relative;
+        }
+        .avatar {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #ff97c1;
+            margin-bottom: 18px;
+        }
+        .doc-wrap{
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            text-align: center;
+        }
+        .doc-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: #ff97c1;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            text-decoration: none;
+            transition: 0.3s;
+            margin: 0 auto 6px;
+        }
+        .doc-icon:hover {
+            background: #d6659e;
+            transform: scale(1.08);
+        }
+        .doc-tip{
+            font-size: 12px;
+            color: #b05080;
+        }
+        h1 {
+            color: #d6659e;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #b05080;
+            font-size: 22px;
+            margin: 20px 0 12px;
+            border-left: 4px solid #ff97c1;
+            padding-left: 12px;
+        }
+        .info-line {
+            font-size: 17px;
+            margin: 6px 0;
+        }
+        .tag-list {
+            list-style: none;
+            margin-top: 18px;
+        }
+        .tag-list li {
+            background: #ffe6f2;
+            color: #903b6b;
+            display: inline-block;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 14px;
+            margin: 5px 8px;
+        }
+        .highlight {
+            color: #b05080;
+            font-weight: bold;
+        }
+        .advantage-list {
+            padding-left: 22px;
+        }
+        .advantage-list li {
+            margin-bottom: 14px;
+            line-height: 1.8;
+        }
+        .slider-wrap {
+            width: 100%;
+            overflow: auto;
+            white-space: nowrap;
+            padding: 12px 0;
+        }
+        .slider-img {
+            width: 240px;
+            height: 240px;
+            object-fit: cover;
+            border-radius: 14px;
+            margin-right: 14px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="card avatar-section">
+        <div class="doc-wrap">
+            <a href="https://my.feishu.cn/wiki/PAOaw6GAbilXMakQNNAcajLZnsT" class="doc-icon" target="_blank">📄</a>
+            <div class="doc-tip">点击查看完整资料文档</div>
+        </div>
+        
+        <!-- 已修复：头像改为 isa.png -->
+        <img class="avatar" src="isa.png" alt="Isabella">
+        <h1>Isabella</h1>
+        <div class="info-line">年龄：<span class="highlight">24岁（爱思考的00后斜杠青年）</span></div>
+        <div class="info-line">当前岗位：<span class="highlight">抖音直播-用户运营经理</span></div>
+        
+        <ul class="tag-list">
+            <li>E/INTP</li>
+            <li>华语辩论世界杯亚军</li>
+            <li>墨尔本大学</li>
+            <li>澳洲独立摄影</li>
+            <li>社交&旅游</li>
+            <li>不设限的研究员人格</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>个人优势</h2>
+        <ul class="advantage-list">
+            <li><strong>业务视角：</strong>1年半「抖音直播业务侧产品运营」工作，从事国内用户增长与多地区探索方向，拥有部门内外统筹协作经验，主动学习与换位沟通能力强；</li>
+            <li><strong>辩论教练：</strong>担任「奇葩说」选手设立品牌「超级辩手公司」线上下思辨课程教练，参与课程研发设计，面向海内外10-16岁华人学生教学，专业度高、亲和力强，课程续报率66.7%，素人教练排名第一；</li>
+            <li><strong>校园项目：</strong>留学期间担任墨尔本大学华语辩论副主席，统筹联动澳洲大使馆与澳洲八大校举办「澳洲辩论锦标赛」，成功扩大活动声量；领导传统广播站转型校级主持人协会，成为在校期间唯一成功创建的学生社团；曾任学生委员会主席、校园招生大使、校友会干事，拥有丰富的校园各方沟通经验；</li>
+            <li><strong>AI探索欲强：</strong>四次线下参与「AI创变者大赛」，在深圳、重庆、长春与温州场次深度参与活动，从产品侧给出建议，指导项目获各赛区一至三等奖，mentor time互动率高，线下获学生和社长们广泛认可；webcoding与AI Agent相关技能持续学习中，有搭建网页与设计交互能力；</li>
+            <li><strong>二次元兴趣：</strong>对语c、动漫、cos有高度兴趣，有AI漫剧作品编写经验，社交圈二次元浓度含量高，对oc与ip开发项目有极强热情。</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Gallery</h2>
+        <div class="slider-wrap">
+            <img src="4.png" class="slider-img">
+            <img src="3.png" class="slider-img">
+            <img src="1.png" class="slider-img">
+            <img src="2.png" class="slider-img">
+            <img src="6.png" class="slider-img">
+            <img src="5.png" class="slider-img">
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
